@@ -1,0 +1,8 @@
+default:
+    extensions:
+        Behat\MinkExtension:
+            base_url: http://localhost # set this to the site url you want to test
+            browser_name: chrome
+            default_session: selenium2
+            selenium2:
+                wd_host: http://127.0.0.1:9515 # set this to you running chromedriver instance host:port
